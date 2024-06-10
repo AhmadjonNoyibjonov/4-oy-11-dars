@@ -275,15 +275,75 @@
 // }
 // console.log(replaceFirstSmallAToBigA("salom"));
 
-
-
 // 4-masala
-function replaceAllCatsWithDogs(arg) {
-  let res;
-  res = arg.replaceAll()
+// function replaceAllCatsWithDogs(arg) {
+//   let res;
+//   res = arg.replaceAll("cat", "dog")
+
+//   return res;
+
+// }
+// console.log(replaceAllCatsWithDogs("cat   cat  cat  animal"));
+
+// 5-masala
+// function replaceAllSmallEToBigE(arg) {
+//   let res;
+//   res = arg.replaceAll("e", "E");
+
+//   return res;
+// }
+// console.log(replaceAllSmallEToBigE("energetika"));
+
+// 6-masala
+// function splitBySpaces(arg) {
+//   let res;
+//   res = arg.split(" ");
+
+//   return res;
+// }
+
+// console.log(splitBySpaces("hello uzbekistan"));
+
+// 7-masala
+// function splitByCommas(arg) {
+//   let res;
+//   res = arg.split(",")
+
+//   return res;
+// }
+// console.log(splitByCommas("who , are , you"));
 
 
-  return res;
+// 8-masala
+// function splitByEachCharacter(arg) {
+//   let res;
+//   res = arg.split("");
 
-}
-console.log(replaceAllCatsWithDogs("cat   cat  cat  animal"));
+
+//   return res;
+// }
+// console.log(splitByEachCharacter("good"));
+
+
+// 9-masala
+// function splitByDelimiter(arg) {
+//   let res;
+//   res = arg.split("-");
+
+//   return res;
+// }
+
+// console.log(splitByDelimiter("how-old-are-you"));
+
+// 10-masala
+// function processString(arg) {
+//   let res;
+//   res = arg.replaceAll("a"," * ");
+//   res = res.repeat(3);
+//   res = res.split(" ")
+
+//   return res;
+// }
+// console.log(processString("animal"));
+
+
