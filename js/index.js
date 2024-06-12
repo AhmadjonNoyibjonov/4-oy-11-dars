@@ -313,17 +313,14 @@
 // }
 // console.log(splitByCommas("who , are , you"));
 
-
 // 8-masala
 // function splitByEachCharacter(arg) {
 //   let res;
 //   res = arg.split("");
 
-
 //   return res;
 // }
 // console.log(splitByEachCharacter("good"));
-
 
 // 9-masala
 // function splitByDelimiter(arg) {
@@ -346,4 +343,130 @@
 // }
 // console.log(processString("animal"));
 
+// Massiv va stringlarni birlashtirib ishlatiladigan va funksiyalar yordamida yechiladigan 10 ta masala:
+// 1-masala
+// function processString(arg) {
+//   let res;
+//   res = arg.split(" ");
+//   let arg1 = arg.toUpperCase();
+//   let arr1 = arg1.split(" ");
 
+//   let result = arr1.join(" ");
+//   return result;
+// }
+
+// console.log(processString("hello uzbekistan wats up"));
+
+// 2-masala
+// function joinArrayWithLength(arg) {
+//     let res;
+//     res = arg.join("");
+//     let L = res.length;
+
+//     return L;
+// };
+// console.log(joinArrayWithLength(["very","good"]));
+
+// 3-masala
+// function cleanArrayToString(arg) {
+//   let res;
+//   res = arg.join(" ");
+//   res = res.trim(" ");
+
+//   return res;
+// }
+// console.log(cleanArrayToString(["salom", "bolalar"]));
+
+// 4-masala
+// function stringToUnicodeArray(arg) {
+//   let res;
+//   res = arg.split("");
+
+//    let a = res.map(function (value) {
+//     return value.charCodeAt(0);
+//   });
+
+//   return a;
+// }
+
+// console.log(stringToUnicodeArray("hello"));
+
+// 5-masala
+// function reverseArrayToString(arg) {
+//   let res;
+//   res = arg.reverse();
+//   res = res.join(" ");
+
+//   return res;
+// }
+// console.log(reverseArrayToString(["hello", "uzbekistan"]));
+
+// 6-masala
+// function padArrayElementsWithZeros(arg) {
+//   let res;
+//   let result;
+//   res = arg.split(" ");
+
+//   let a = res.map(function (value) {
+//     return "0" + value;
+//   });
+
+//   let N = a.join(" ");
+
+//   return N;
+// }
+// console.log(padArrayElementsWithZeros("how old are you"));
+
+// 7-masala
+// function lowercaseArrayToString(arg) {
+//     let res;
+
+//     res = arg.join(" ");
+//     res = res.toUpperCase();
+//     let arr = res.split(" ");
+
+//     let result = arr.join("-");
+
+//     return result;
+// }
+// console.log(lowercaseArrayToString(["salom", "bolalar"]));
+
+// 8-masala
+// function joinArrayElementsWithXYZ(arg) {
+//     let res;
+//     res = arg.split(",");
+//     let result = res.map(function(value) {
+//         return value + "XYZ"
+//     })
+
+//     return result;
+// }
+// console.log(joinArrayElementsWithXYZ("how,are,you"));
+
+// 9-masala
+// function sumArrayElementsLength(arg) {
+//   let res;
+//   let summ = 0;
+//   res = arg.forEach(function (value) {
+//     summ = summ + value.length;
+//   });
+
+//   let result = summ + ""
+
+//   return result;
+// }
+
+// console.log(sumArrayElementsLength(["hello", "children"]));
+
+// 10-masala
+// function squareCharactersOfString(arg) {
+//   let res;
+//   res = arg.split("");
+//   let a = Math.floor(Math.random() * 10);
+//   let arr = res.forEach(function (value, index) {
+//     res.splice(index, 1, `${a}`);
+//   });
+
+//   return arr;
+// }
+// console.log(squareCharactersOfString("hello"));
